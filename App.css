@@ -1,0 +1,48 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #5e5858;
+}
+
+.logo{
+  font-family: sans-serif; 
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.user-options {
+  display: flex;
+  align-items: center;
+}
+
+.user-options input {
+  margin-right: 10px;
+}
+
+section {
+  margin: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'YourPreferredFont', sans-serif; 
+  /*background: url('C:\Windows\System32\nutrigen\src\images\background.jpg') center/cover fixed;*/ 
+  color: #0e0d0d; 
+}
+
+.App {
+  text-align: center;
+}
+
